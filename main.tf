@@ -16,5 +16,6 @@ resource "aws_instance" "demo_instance" {
 
   tags {
     Name = "demo"
+//    Name = "demo-${count.index}"
   }
 }
